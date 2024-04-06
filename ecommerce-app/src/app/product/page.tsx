@@ -1,6 +1,4 @@
-import React from "react";
-import ProductsList from "../(components)/ProductsList";
+// index.tsx
+import ProductPage from "../(components)/ProductPage";
 
-export default function product() {
-  return;
-}
+export default ProductPage;
