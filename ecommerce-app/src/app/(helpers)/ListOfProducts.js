@@ -8,7 +8,7 @@ export const ListOfProducts = [
       "https://uploads-ssl.webflow.com/65f5a1e5ea332f6db536e296/65f68ad8102b1cbeb6561aac_plant%20image%201.png",
   },
   {
-    id: 1,
+    id: 2,
     name: "Product 2",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 123,
@@ -16,7 +16,7 @@ export const ListOfProducts = [
       "https://uploads-ssl.webflow.com/65f5a1e5ea332f6db536e296/65f68ad8102b1cbeb6561aac_plant%20image%201.png",
   },
   {
-    id: 1,
+    id: 3,
     name: "Product 3",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     price: 123,

@@ -1,10 +1,13 @@
 // test.tsx
-import React from "react";
+"use client";
+import { useContext } from "react";
 import Link from "../../../node_modules/next/link";
+import { CartContext } from "../(context)/CartContext";
 
 // import Link from "next/link";
 
 const Navbar: React.FC = () => {
+  const { itemCount } = useContext(CartContext);
   return (
     <nav className="bg-blue-500 p-4 w-full">
       <div className="container mx-auto flex flex-row align-items-center justify-between p-2 items-center ">
@@ -18,7 +21,7 @@ const Navbar: React.FC = () => {
         </div>
         <div className="flex flex-row gap-x-2">
           <p className="text-white">Cart</p>
-          <p className="text-white">0</p>
+          <p className="text-white">{itemCount}</p>
         </div>
       </div>
     </nav>
